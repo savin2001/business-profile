@@ -1,0 +1,129 @@
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.3;
+    letter-spacing: 2px;
+    padding-bottom: 2rem;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    padding-bottom: 1.5rem;
+    font-family: 'Rubik', sans-serif;
+}
+p{
+    line-height: 1.5;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    font-family: 'Nunito', sans-serif;
+}
+hr{
+    width: 50%;
+    height: 5px;
+    padding: 2rem 0;
+    border-top: dotted #000000;
+}
+ /* Navigation bar */
+.title{
+    padding: 2% 16% 0;
+    background-color: #212121;
+    overflow: hidden;
+}
+.brand-name{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Metal Mania', cursive;
+    letter-spacing: 2px;
+}
+
+/* Main content */
+.left-column{
+    text-align: center;
+    padding: 10% 0;
+}
+.big-texts{
+    font-family: 'Monda', sans-serif;
+}
+.information{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.desk-img{
+    transform: rotate(20deg);
+    margin: 20% 10% -15%;    
+}
+
+/* Effects */
+.effects{
+    padding: 12% 15% 10%;
+    position: relative;
+    text-align: center;
+    background-color: #323232;
+}
+.favicon{
+    color: #007bff;
+    font-size: 4rem;
+    padding-bottom: 1.5rem;
+    transition: .3s;
+}
+.favicon:hover{
+    color: #ffc107;
+    transition: .3s;
+    padding-bottom: 2rem;
+}
+
+/* Testimonials */
+.testimonials{
+    background-color: #0d7377;
+    padding: 12% 16% 15%;
+    text-align: center;
+}
+.testimony{
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top: -2.5rem;
+    padding-bottom: 2rem;
+}
+.person-name{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-style: italic;
+    padding-bottom: 2rem;
+}
+.logo-img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+/* Pricing and contact*/
+.pricing{
+    background-color: #f6f7d7;
+    padding: 7% 10% 10%;
+    text-align: center;
+}
+.prices{
+    padding: 2rem 2rem ;
+}
+.card-price{
+    padding: 10%;
+}
+
+/* Footer */
+.bottom-container{
+    padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    background-color: #ffbd69;
+    position: relative;
+    z-index: -1;
+}
+#footer{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    position:relative;
+	left: 40%;
+}
